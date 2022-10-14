@@ -1,0 +1,66 @@
+.c1{
+    width: 200px;
+    height: 200px;
+    background-image: url(englogo.png);
+    background-size: cover;
+}
+.c2{
+    width: 69px;
+    /* background: rgb(156, 43, 187); */
+    color: white;
+    height: 86px;
+    background-image: url(polyhgon.png);
+    background-size: cover;
+    position: relative;
+    top: -140px;
+    left: 88px;
+    transform: skewY(20deg);
+    z-index: +1;
+    
+}
+.c2{
+    background-image: linear-gradient(
+/* blue 10%, */
+    purple 20% 100%
+);
+}
+
+.c3{
+    width: 65px;
+    /* background: rgb(156, 43, 187); */
+    color: white;
+    height: 60px;
+    background-image: url(polyhgon.png);
+    background-size: cover;
+    position: relative;
+    top: -131px;
+    left: 90px;
+    transform: skewY(40deg);
+    z-index: +5;
+}
+.p1{
+    z-index: +6;
+    margin-top: -211px;
+    position: relative;
+    left: 99px;
+    font-size: 8px;
+    font-weight: bold;
+}
+.p2{
+    margin-top: 33px;
+    z-index: +6;
+    position: relative;
+    font-size: 5px;
+    left: 127px;
+    font-weight: bolder;
+}
+.apple{
+    width: 200px;
+    height: 200px;
+}
+@media(max-width:200px) {
+    .apple{
+        width: 540px;
+        height: 720px;
+    }
+}
